@@ -13,31 +13,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Patricia
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+        What does C.R.U.D. stand for?
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>Create &rarr;</h2>
+            <ul>
+              <li>A file</li>
+              <li>A folder</li>
+            </ul>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Read &rarr;</h2>
+            <ul>
+              <li>A file</li>
+            </ul>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Update &rarr;</h2>
+            <ul>
+              <li>A folder name</li>
+              <li>A file name</li>
+              <li>The file contents</li>
+            </ul>
           </a>
 
           <a
@@ -46,10 +54,11 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h2>Delete &rarr;</h2>
+            <ul>
+              <li>The file</li>
+              <li>The folder</li>
+            </ul>
           </a>
         </div>
       </main>
